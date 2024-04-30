@@ -1,0 +1,778 @@
+fileFormatVersion: 2
+guid: 5d112a222e7601244bdc5c77c2567a82
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 1
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tileset_Vegetations_2_32x32_01
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1036
+        width: 94
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fda394e65c94b894ebbf835ba46447e8
+      internalID: 2066994538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Vegetations_2_32x32_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1036
+        width: 94
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec762163252b7d44d9dd8fdcbefaa74d
+      internalID: 1332290782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Vegetations_2_32x32_03
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 908
+        width: 94
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bbdbc1300a429c44b82076b4e973860
+      internalID: 1670712565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Vegetations_2_32x32_02
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 908
+        width: 94
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0492954e3a3381e49a144bcac1b42c55
+      internalID: -208279350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Vegetations_2_32x32_05
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 780
+        width: 94
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95a0a0b757af2ef4c928bd7a9fa7803c
+      internalID: -1728109627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Vegetations_2_32x32_04
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 780
+        width: 94
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09b65cb399e7f6e4eaf2330f8471ed16
+      internalID: 710903447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Vegetations_2_32x3Tileset_Vegetations_2_32x32_07
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 651
+        width: 94
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 467a656210a31c0439965af8f9050310
+      internalID: -907287419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Vegetations_2_32x32_06
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 652
+        width: 94
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b925f2576a822c443b73a5a8105f7e5f
+      internalID: 657298079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Vegetations_2_32x32_09
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 524
+        width: 94
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97adef5d2d6f73d48bccee361811cc7a
+      internalID: 2081333142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Vegetations_2_32x32_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 396
+        width: 94
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 063580a69a3cb2040a89b98d1bcac57d
+      internalID: -1531537248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Vegetations_2_32x32_08
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 524
+        width: 94
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c3283bb17e19a54e9c5adac3a74a2ea
+      internalID: 1757971364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 366
+        width: 56
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6733a230c3e8514aaec9f5d88869211
+      internalID: -321286952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Vegetations_2_32x32_18
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 300
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97e393fb57fb85c4fa4044ab9a0acae2
+      internalID: -1911136998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Vegetations_2_32x32_19
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 268
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 635f224b305170d4b98c5d7104961d2c
+      internalID: -1355341094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Vegetations_2_32x32_20
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 236
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 102c8303a5424fd4b90cebcc2c469aa0
+      internalID: 1068634354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Vegetations_2_32x32_21
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 204
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b5bd7319d0988f45bc6cc18c9a7cfdf
+      internalID: 1561768133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Vegetations_2_32x32_22
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 172
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25e8080844571ef4594243491f102c1e
+      internalID: -356385962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Vegetations_2_32x32_23
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 140
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 475368d3a15db1142a665723ece58aa3
+      internalID: -2014799942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Vegetations_2_32x32_24
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 108
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b93bd1ca6eefd5841a31c42f6eac607b
+      internalID: -522046574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Vegetations_2_32x32_25
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 76
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeb3e26177dd728499ec323588de8f85
+      internalID: -482428180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Vegetations_2_32x32_26
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 44
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 100236e215b71fa4898e3452bac0b517
+      internalID: 1224136335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Vegetations_2_32x32_27
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 12
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92bd65bef6d867442b927e8a1b47dc2b
+      internalID: 1728185265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Vegetations_2_32x32_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 300
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e2c3b5df45535448a371fddf1b691cd
+      internalID: 2086807582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Vegetations_2_32x32_11
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 396
+        width: 94
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d6dd7426509a96419199409f6a14122
+      internalID: -1512251095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Vegetations_2_32x32_13
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 268
+        width: 96
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a082c41bcc32f6a48b166934093a44cf
+      internalID: -196939162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Vegetations_2_32x32_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 204
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11852ad8bd0c4514fb364fb2b39b7a66
+      internalID: -236767226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Vegetations_2_32x32_15
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 140
+        width: 96
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1019a6519fc7983479ce247d464eae91
+      internalID: -2013209805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Vegetations_2_32x32_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 108
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbecd8860a4aa29429fcea3d2d5dade2
+      internalID: -1114555533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Vegetations_2_32x32_17
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 12
+        width: 96
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10cff28c4660aa243832046d9ba0698a
+      internalID: 1034166375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      20: -321286952
+      Tileset_Vegetations_2_32x32_00: 1332290782
+      Tileset_Vegetations_2_32x32_01: 2066994538
+      Tileset_Vegetations_2_32x32_02: -208279350
+      Tileset_Vegetations_2_32x32_03: 1670712565
+      Tileset_Vegetations_2_32x32_04: 710903447
+      Tileset_Vegetations_2_32x32_05: -1728109627
+      Tileset_Vegetations_2_32x32_06: 657298079
+      Tileset_Vegetations_2_32x32_08: 1757971364
+      Tileset_Vegetations_2_32x32_09: 2081333142
+      Tileset_Vegetations_2_32x32_10: -1531537248
+      Tileset_Vegetations_2_32x32_11: -1512251095
+      Tileset_Vegetations_2_32x32_12: 2086807582
+      Tileset_Vegetations_2_32x32_13: -196939162
+      Tileset_Vegetations_2_32x32_14: -236767226
+      Tileset_Vegetations_2_32x32_15: -2013209805
+      Tileset_Vegetations_2_32x32_16: -1114555533
+      Tileset_Vegetations_2_32x32_17: 1034166375
+      Tileset_Vegetations_2_32x32_18: -1911136998
+      Tileset_Vegetations_2_32x32_19: -1355341094
+      Tileset_Vegetations_2_32x32_20: 1068634354
+      Tileset_Vegetations_2_32x32_21: 1561768133
+      Tileset_Vegetations_2_32x32_22: -356385962
+      Tileset_Vegetations_2_32x32_23: -2014799942
+      Tileset_Vegetations_2_32x32_24: -522046574
+      Tileset_Vegetations_2_32x32_25: -482428180
+      Tileset_Vegetations_2_32x32_26: 1224136335
+      Tileset_Vegetations_2_32x32_27: 1728185265
+      Tileset_Vegetations_2_32x3Tileset_Vegetations_2_32x32_07: -907287419
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
