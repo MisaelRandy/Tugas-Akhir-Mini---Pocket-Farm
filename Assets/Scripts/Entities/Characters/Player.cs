@@ -7,12 +7,13 @@ public class Player : MonoBehaviour
 {
     [SerializeField] private float movementSpeed = 7f;
     [SerializeField] private GameInput gameInput;
-    [SerializeField] private LayerMask greenTreeLayerMask;
+    [SerializeField] private LayerMask greenTreeLayersMask;
 
     private Vector2 inputVector;
     private Vector3 movementDir;
     private Vector3 interactDir;
     private Vector3 lastInteractDir;
+    private NormalGreenTree GreenTree;
     private float playerSize = 0.7f;
     private bool canMove;
     
@@ -21,49 +22,17 @@ public class Player : MonoBehaviour
         gameInput.OnInteractAction += GameInput_OnInteractAction;
     }
 
-    private void GameInput_OnInteractAction(object sender, EventArgs e)
-    {
-        inputVector = gameInput.GetMovementVectorNormalized();
-        inputVector = inputVector.normalized;
-
-        interactDir = new Vector3 (inputVector.x, inputVector.y, 0f);
-
-        if (interactDir != Vector3.zero)
-        {
-            lastInteractDir = interactDir;
-        }
-
-
-        float interactDistance = 1f;
-
-        RaycastHit2D raycastHit = Physics2D.Raycast(
-            transform.position,
-            lastInteractDir,
-            interactDistance,
-            greenTreeLayerMask);
-
-        if (raycastHit.collider != null)
-            {
-                Transform objectHit = raycastHit.transform;
-
-                objectHit.transform.TryGetComponent(out NormalGreenTree normalGreenTree);
-                // * Has NormalGreenTree
-                normalGreenTree.Interact();
-            }
-
-        else
-        {
-            Debug.Log("No interaction detected");
-            Debug.DrawRay(transform.position, lastInteractDir * interactDistance, Color.green);
-        }
-        
-    }
-
     // Update is called once per frame
     private void Update()
     {
         HandleMovement();
         HandleInteractions();
+    }
+
+    private void GameInput_OnInteractAction(object sender, EventArgs e)
+    {
+        GreenTree.Interact();
+        
     }
 
     private void HandleInteractions()
@@ -78,32 +47,31 @@ public class Player : MonoBehaviour
             lastInteractDir = interactDir;
         }
 
-
         float interactDistance = 1f;
 
         RaycastHit2D raycastHit = Physics2D.Raycast(
             transform.position,
             lastInteractDir,
             interactDistance,
-            greenTreeLayerMask);
+            greenTreeLayersMask);
 
         if (raycastHit.collider != null)
             {
                 Transform objectHit = raycastHit.transform;
 
-                Debug.Log(objectHit.transform.name + " is in front of me!");
+                // Debug.Log(objectHit.transform.name + " is in front of me!");
                 Debug.DrawRay(transform.position, lastInteractDir * interactDistance, Color.red);
 
                 objectHit.transform.TryGetComponent(out NormalGreenTree normalGreenTree);
-                // ! Has NormalGreenTree
+                // * Source code above used so we can have "NormalGreenTree" component
                 // normalGreenTree.Interact();
             }
 
         else
-        {
-            Debug.Log("No interaction detected");
-            Debug.DrawRay(transform.position, lastInteractDir * interactDistance, Color.green);
-        }
+            {
+                // Debug.Log("No object detected in front of me!");
+                Debug.DrawRay(transform.position, lastInteractDir * interactDistance, Color.green);
+            }
         
     }
 
@@ -132,7 +100,7 @@ public class Player : MonoBehaviour
         }
     }
 
-        public Vector3 PlayerMovementDirection()
+    public Vector3 PlayerMovementDirection()
     {
         return movementDir;
     }
